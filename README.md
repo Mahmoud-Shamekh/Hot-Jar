@@ -164,10 +164,7 @@ This happens because Hotjar only tracks traffic on **whitelisted domain names** 
 - `http://localhost:8080/...` ❌ Not supported  
 - `http://192.168.1.70/...` ❌ Not supported  
 
-### ✅ Solution
-- Use a **real staging/production domain** (e.g., `staging.mycompany.com`).  
-- Or map your local IP to a **custom domain** via your `hosts` file:  
-  ```
+
   192.168.1.70   myproject.local
   ```  
   Then open the site as `http://myproject.local:8080/...` and add `myproject.local` in Hotjar’s allowed domains.  
