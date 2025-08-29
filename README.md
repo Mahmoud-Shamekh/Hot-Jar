@@ -162,7 +162,3 @@ $('#errorFareCheck').on('shown.bs.modal', function () {
 
 ---
 
-## 📊 Why This Matters
-- **Funnels:** Build funnels in Hotjar (e.g., results_view → book_now_clicked → booking_confirmation_opened).  
-- **Drop-off Analysis:** Events like *fare_rules_viewed* or *fare_change_modal_opened* show where users hesitate.  
-- **Conversion Insights:** If many users stop at *fare rules modal*, pricing transparency may be an issue.
